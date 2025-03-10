@@ -25,6 +25,7 @@ st.set_page_config(page_title="📖 HG Illuminarium", layout="wide")
 
 st.title("📚 HG Illuminarium")
 st.sidebar.title("📚 HG Illuminarium")
+st.sidebar.image("book1.png")
 # Sidebar Menu
 tabs = ["Add Book", "Remove Book", "Search Book", "View Library", "Statistics"]
 choice = st.sidebar.radio("Select an option", tabs)
